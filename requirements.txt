@@ -1,0 +1,11 @@
+# Gemini API ile iletişim için temel kütüphane
+google-genai
+
+# .po uzantılı oyun çevirisi dosyalarını okuma/yazma kütüphanesi
+polib
+
+# Ortam değişkenlerinden (API anahtarı) güvenli okuma kütüphanesi
+python-dotenv
+
+# Word (DOCX) belgelerini okuma ve üzerine yazarak güncelleme kütüphanesi
+python-docx
