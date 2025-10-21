@@ -10,8 +10,7 @@ from typing import List, Dict, Any
 # --- API ANAHTARLARI VE İSTEMCİ YÖNETİMİ ---
 API_KEYS = [
     # Bu kısmı doldurmalısınız!
-    "AIzaSyAdcdT89H3bCOvDYAtMxhAv29QW3UWUsjo",
-    "AIzaSyCrsTVZ7xNh6flE6gQDtHS9n1Ky919VqLc",
+    # API KEYlerinizi girin
 ]
 
 class GeminiClientManager:
@@ -339,4 +338,5 @@ if __name__ == "__main__":
             crash_count += 1
             print(f"\n[ANA KONTROL] Program beklenmedik bir hata ile durdu: {type(e).__name__}.")
             print("Çeviri durumu kaydedildi. Yeniden başlatılıyor...")
+
             # 'while True' döngüsü, betiği baştan başlatır (TR.po'yu yükleyerek devam eder).
