@@ -10,8 +10,6 @@ import shutil
 # --- API ANAHTARLARI VE İSTEMCİ YÖNETİMİ ---
 API_KEYS = [
     # Bu kısmı doldurmalısınız!
-    "AIzaSyAdcdT89H3bCOvDYAtMxhAv29QW3UWUsjo",
-    "AIzaSyCrsTVZ7xNh6flE6gQDtHS9n1Ky919VqLc",
 ]
 
 class GeminiClientManager:
@@ -333,4 +331,5 @@ if __name__ == "__main__":
         except Exception as e:
             crash_count += 1
             print(f"\n[ANA KONTROL] Program kritik bir hata ile durdu: {type(e).__name__} ({e}). Yeniden başlatılıyor...")
+
             time.sleep(5)
